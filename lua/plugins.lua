@@ -18,4 +18,5 @@ require('packer').startup(function(use)
     use { 'nvim-lualine/lualine.nvim', requires = { 'nvim-tree/nvim-web-devicons', opt = true } } -- Status line
     use 'ellisonleao/gruvbox.nvim' -- Color scheme
     use 'olimorris/onedarkpro.nvim' -- Color scheme
+    use { 'github/copilot.vim' } -- Copilot
 end)

@@ -11,6 +11,7 @@ require('plugins.treesitter')
 require('plugins.telescope')
 require('plugins.lualine')
 require('plugins.onedarkpro')
+require('plugins.copilot')
 
 -- LSP configuration
 require('lsp')
