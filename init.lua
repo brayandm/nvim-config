@@ -10,6 +10,7 @@ require('plugins.nvim-tree')
 require('plugins.treesitter')
 require('plugins.telescope')
 require('plugins.lualine')
+require('plugins.onedarkpro')
 
 -- LSP configuration
 require('lsp')

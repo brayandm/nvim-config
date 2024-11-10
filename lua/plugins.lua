@@ -17,4 +17,5 @@ require('packer').startup(function(use)
     use 'neovim/nvim-lspconfig' -- LSP support
     use { 'nvim-lualine/lualine.nvim', requires = { 'nvim-tree/nvim-web-devicons', opt = true } } -- Status line
     use 'ellisonleao/gruvbox.nvim' -- Color scheme
+    use 'olimorris/onedarkpro.nvim' -- Color scheme
 end)
