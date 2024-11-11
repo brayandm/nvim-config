@@ -23,4 +23,10 @@ require('packer').startup(function(use)
         'romgrk/barbar.nvim',
         requires = 'nvim-tree/nvim-web-devicons'
     } -- Tabline
+    use {
+        "NvChad/nvterm",
+        config = function()
+            dofile(vim.fn.stdpath("config") .. "/plugin/nvterm.lua")
+        end
+    }
 end)

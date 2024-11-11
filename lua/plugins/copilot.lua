@@ -9,6 +9,3 @@ vim.g.copilot_filetypes = { -- Enable Copilot for specific file types
     typescript = true,
     ["*"] = true, -- Enable for all file types
 }
-
--- Key mapping to accept Copilot suggestions
-vim.api.nvim_set_keymap("i", "<Tab>", 'copilot#Accept("<CR>")', { silent = true, expr = true })
