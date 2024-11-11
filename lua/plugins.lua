@@ -26,7 +26,7 @@ require('packer').startup(function(use)
     use {
         "NvChad/nvterm",
         config = function()
-            dofile(vim.fn.stdpath("config") .. "/plugin/nvterm.lua")
+            dofile(vim.fn.stdpath("config") .. "/lua/plugin/nvterm.lua")
         end
     }
 end)
