@@ -6,3 +6,7 @@ vim.opt.shiftwidth = 4               -- Indentation width
 vim.opt.tabstop = 4                  -- Tab width
 vim.opt.mouse = 'a'                  -- Enable mouse support
 vim.opt.clipboard = 'unnamedplus'    -- Use system clipboard
+
+-- Map leader key to space
+vim.g.mapleader = " "
+vim.g.maplocalleader = " "
