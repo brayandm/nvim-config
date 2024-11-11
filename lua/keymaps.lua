@@ -20,3 +20,10 @@ vim.api.nvim_set_keymap("n", "<leader>th", "<cmd>lua require('nvterm.terminal').
 
 -- Open vertical terminal
 vim.api.nvim_set_keymap("n", "<leader>tv", "<cmd>lua require('nvterm.terminal').toggle('vertical')<CR>", { noremap = true, silent = true })
+
+-- Map space to <Nop>
+vim.keymap.set("n", "<Space>", "<Nop>", { noremap = true, silent = true })
+
+-- Map leader key to space
+vim.g.mapleader = " "
+vim.g.maplocalleader = " "

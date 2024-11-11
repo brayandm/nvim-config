@@ -16,7 +16,3 @@ require('plugins.treesitter')
 
 -- LSP configuration
 require('lsp')
-
--- Map leader key to space
-vim.g.mapleader = " "
-vim.g.maplocalleader = " "
