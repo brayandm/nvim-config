@@ -6,12 +6,13 @@ require('keymaps')        -- Key mappings
 require('plugins')        -- Plugin setup (Packer)
 
 -- Plugin-specific configurations
-require('plugins.nvim-tree')
-require('plugins.treesitter')
-require('plugins.telescope')
-require('plugins.lualine')
-require('plugins.onedarkpro')
 require('plugins.copilot')
+require('plugins.lualine')
+require('plugins.nvim-tree')
+require('plugins.nvterm')
+require('plugins.onedarkpro')
+require('plugins.telescope')
+require('plugins.treesitter')
 
 -- LSP configuration
 require('lsp')
