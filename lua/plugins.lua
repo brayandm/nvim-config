@@ -29,4 +29,13 @@ require('packer').startup(function(use)
           require("nvterm").setup()
         end,
       }
+    use 'tpope/vim-dadbod' -- SQL integration
+    use {
+        'kristijanhusak/vim-dadbod-ui', -- UI for vim-dadbod
+        requires = 'tpope/vim-dadbod'
+    }
+    use {
+        'kristijanhusak/vim-dadbod-completion', -- Completion for vim-dadbod
+        requires = 'tpope/vim-dadbod'
+    }
 end)
